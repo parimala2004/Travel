@@ -320,6 +320,228 @@ class _travelState extends State<travel> {
                 ],
 
               )
+                 SizedBox(height: 20,),
+              Padding(
+                padding: const EdgeInsets.only(left: 22.0),
+                child: Text("Inclusions",style:TextStyle(fontSize: 13,color:Colors.green,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+              ),
+              SizedBox(height: 20,),
+              Padding(
+                padding: const EdgeInsets.only(left: 22.0),
+                child: Row(
+                  children: [
+                    Column(
+                      children: [
+                        Container(
+                          height: 30,
+                          width: 30,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.blue.shade300,
+                              image: DecorationImage(image: AssetImage("assets/images/apart.jpg"),fit: BoxFit.cover)
+
+                          ),
+
+
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("Accomodation",style:TextStyle(fontSize: 8,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Container(
+                          height: 30,
+                          width: 30,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.blue.shade300,
+                              image: DecorationImage(image: AssetImage("assets/images/food.jpg"),fit: BoxFit.cover)
+
+                          ),
+
+
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("Food",style:TextStyle(fontSize: 8,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Container(
+                          height: 30,
+                          width: 30,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              
+                              image: DecorationImage(image: AssetImage("assets/images/car.webp"),fit: BoxFit.cover)
+
+                          ),
+
+
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("Local Transport",style:TextStyle(fontSize: 8,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Container(
+                          height: 30,
+                          width: 30,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.blue.shade300,
+                              image: DecorationImage(image: AssetImage("assets/images/sight.png"),fit: BoxFit.cover)
+
+                          ),
+
+
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("Sightseeing",style:TextStyle(fontSize: 8,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Container(
+                          height: 30,
+                          width: 30,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.blue.shade300,
+                              image: DecorationImage(image: AssetImage("assets/images/guide.jpg"),fit: BoxFit.cover)
+
+                          ),
+
+
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("Tour Guide",style:TextStyle(fontSize: 8,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+                        ),
+                      ],
+                    ),
+
+                  ],
+                ),
+              ),
+              SizedBox(height: 20,),
+              Padding(
+                padding: const EdgeInsets.only(left: 22.0),
+                child: Text("Exclusions",style:TextStyle(fontSize: 13,color:Colors.red,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+              ),
+              SizedBox(height: 20,),
+              Padding(
+                padding: const EdgeInsets.only(left: 22.0),
+                child: Row(
+                  children: [
+                    Column(
+                      children: [
+                        Container(
+                          height: 30,
+                          width: 30,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.blue.shade300,
+                              image: DecorationImage(image: AssetImage("assets/images/flight.jpg"),fit: BoxFit.cover)
+
+                          ),
+
+
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("Flights",style:TextStyle(fontSize: 8,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Container(
+                          height: 30,
+                          width: 30,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.blue.shade300,
+                              image: DecorationImage(image: AssetImage("assets/images/trolly.jpg"),fit: BoxFit.cover)
+
+                          ),
+
+
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("Personel Expenses",style:TextStyle(fontSize: 8,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Container(
+                          height: 30,
+                          width: 30,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.blue.shade300,
+                              image: DecorationImage(image: AssetImage("assets/images/room.jpg"),fit: BoxFit.cover)
+
+                          ),
+
+
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("Room Service",style:TextStyle(fontSize: 8,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Container(
+                          height: 30,
+                          width: 30,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.blue.shade300,
+                              image: DecorationImage(image: AssetImage("assets/images/shoot.jpg"),fit: BoxFit.cover)
+
+                          ),
+
+
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("Additional Activities",style:TextStyle(fontSize: 8,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+                        ),
+                      ],
+                    ),
+
+
+                  ],
+                ),
+              ),
+              SizedBox(height: 20,),
+              Padding(
+                padding: const EdgeInsets.only(left: 22.0),
+                child: Text("Terms & Conditions",style:TextStyle(fontSize: 13,fontStyle:FontStyle.italic,fontWeight: FontWeight.bold),),
+              ),
+              SizedBox(height: 15,),
+              Container(
+                width: 340,
+                child: Padding(
+                  padding: const EdgeInsets.only(left:22.0),
+                  child: Text("Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae earum nemo esse velit, labore soluta molestias! Amet, sit enim tempora repellat reprehenderit, totam fugiat incidunt iure adipisci porro sequi eveniet!",textAlign: TextAlign.justify),
+                ),
+              )
 
           
           
